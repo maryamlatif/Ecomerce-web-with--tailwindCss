@@ -35,7 +35,7 @@ export default function Cart() {
 
         <div className="mt-8 lg:mt-0 flex justify-center lg:block">
           <div className="relative w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden bg-gray-900 flex items-center justify-center">
-            <Image
+            <img
               src="/hand.png" 
               alt="Plant"
               className="object-cover w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48"

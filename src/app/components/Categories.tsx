@@ -32,7 +32,7 @@ const CategoriesSection = () => {
       <div className="flex flex-col md:flex-row gap-8 max-w-5xl mx-auto justify-center">
         {categories.map((category, index) => (
           <div key={index} className="bg-slate-200 rounded-lg overflow-hidden shadow-lg w-full md:w-1/3">
-            <Image src={category.imageUrl} alt={category.title} width={0} height={0}
+            <img src={category.imageUrl} alt={category.title} width={0} height={0}
             className="w-full max-h-90  " />
             <div className="p-4 text-center">
               <h3 className="font-semibold text-lg">{category.title}</h3>
